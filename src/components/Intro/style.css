@@ -1,0 +1,96 @@
+.intro-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	row-gap: 103px;
+}
+
+.intro-container-text {
+	margin-top: 128px;
+}
+.intro-container-text h1 {
+	font-family: "PT Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 96px;
+	line-height: 108px;
+	letter-spacing: 0.17em;
+
+	color: var(--text);
+	margin-left: 152px;
+}
+.intro-container-text h2 {
+	font-family: "PT Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 40px;
+
+	margin-left: 352px;
+	margin-top: 112px;
+
+	color: var(--text);
+}
+.intro-container-text p {
+	max-width: 760px;
+	max-height: 500px;
+	text-align: left;
+	font-family: "PT Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22px;
+
+	color: var(--text);
+
+	margin-left: 152px;
+	margin-right: 103px;
+	margin-top: 112px;
+	margin-bottom: 112px;
+}
+.intro-container-img {
+	max-width: 900px;
+	max-height: 900px;
+	margin-top: 128px;
+}
+
+/*intro-skills*/
+.containerintro-skills {
+	height: 380px;
+	background-color: var(--text);
+	padding-top: 60px;
+}
+.introskills-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 360px;
+}
+.introskills-list__item p {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #ffffff;
+	width: 150px;
+
+	position: absolute;
+}
+.introskills-list__item img {
+	padding-left: 15px;
+}
+.parametr {
+	text-align: center;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+.introskills-list__item-text {
+	margin-top: 6%;
+	margin-right: 10px;
+}
+.introskills-list__item-icon {
+	margin-left: 12px;
+}

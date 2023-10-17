@@ -1,0 +1,58 @@
+/*Stages*/
+
+.stages {
+	margin-top: 240px;
+}
+.stages h2 {
+	text-align: center;
+	font-family: "PT Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 90px;
+	color: var(--text);
+}
+.container-stages {
+	margin-top: 140px;
+	display: flex;
+	flex-direction: column;
+	gap: 250px;
+}
+.container-stages__step {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.container-stages__step-text {
+	padding-top: 4%;
+	margin-left: 4%;
+	text-align: left;
+	max-width: 650px;
+	max-height: 200px;
+	height: 100%;
+
+	font-family: "PT Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+
+	color: #141414;
+}
+.container-stages__step-title {
+	width: 900px;
+	height: 200px;
+
+	text-align: center;
+	background: #ffecd9;
+	padding-top: 2%;
+	font-family: "PT Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 96px;
+	line-height: 108px;
+	color: var(--text);
+}
+.text-wright {
+	margin-right: 10%;
+}
